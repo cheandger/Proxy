@@ -1,6 +1,6 @@
 public class DBConnectorProxyImpl implements DbProxy {
 
-    public String dbUrl;
+    String dbUrl;
 
 
     DBConnectorProxyImpl() {

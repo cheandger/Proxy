@@ -1,7 +1,8 @@
+
 public class DBConnectorImpl implements DbConnector {
 
-    private DbProxy dbProxy;
-    public String dbName;
+    DbProxy dbProxy;
+    String dbName;
 
     public DBConnectorImpl(String dbName, DbProxy dbProxy) {
 
